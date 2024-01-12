@@ -584,6 +584,10 @@ width: 40px;
         justify-content: center;
  }
 
+.footer-soc-link:hover, .footer-soc-link:focus {
+    border-color: #31d0aa;
+}
+
  .card-soc {}
  /* ----------- */
 
