@@ -220,12 +220,40 @@ padding-top: 120px;
     overflow: hidden;
 }
 
-.strategy-icon-list {}
+.icons-wrap{
 
-.strategy-icon {}
+}
+
+.strategy-icon-list {
+list-style: none;
+display: flex;
+gap: 24px;
+
+}
+
+.strategy-icon {
+border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 
 .strategy-icon-link {
+    
+
 }
+
+.icons{
+   
+        }
+
 
 
 .strategy {
