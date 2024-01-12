@@ -77,6 +77,7 @@ list-style-type: none;
 
 .header-menu{
 padding: 24px 0;
+position: relative;
 }
 
 address {
@@ -96,6 +97,26 @@ address {
         
         
 }
+
+.header-symbol{
+    
+}
+
+.header-symbol::after{
+    position: absolute;
+    content: "";
+
+    width: 48px;
+        height: 4px;
+        display: block;
+        border-radius: 2px;
+            background:  #404BBF;
+left: 0;
+    bottom: -1px;
+}
+
+.current {
+    color: #404BBF;}
 
 .container {
     max-width: 1158px;
@@ -370,6 +391,7 @@ color:  #2E2F42;
  }
             
  .icon-class {
+    margin-top: 8px;
  }
             
 .icon-list {
