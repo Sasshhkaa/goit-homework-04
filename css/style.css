@@ -245,18 +245,6 @@ border-radius: 4px;
 margin-bottom: 8px;
 }
 
-.strategy-icon-list {
-display: flex;
-list-style: none;
-gap: 24px;
-
-}
-
-.strategy-icon {
-width: 264px;
-    }
-
-
 
 
 .strategy {
@@ -372,7 +360,6 @@ color:  #2E2F42;
  }
             
  .icon-class {
-    margin-top: 8px;
  }
             
 .icon-list {
@@ -477,8 +464,6 @@ border-top: none;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-padding: 0px 16px;
-margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -487,7 +472,6 @@ margin-bottom: 8px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 0px 16px;
 }
 
 /* ---------- */
